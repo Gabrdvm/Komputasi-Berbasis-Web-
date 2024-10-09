@@ -21,13 +21,13 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                <ul class="navbar-nav d-flex gap-2 fs-6 h2">
                   <li class="nav-item">
-                     <a class="nav-link" href="/Minggu 3/Dashboard.php">Home</a>
+                     <a class="nav-link" href="Dashboard.php">Home</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link active" href="#"> About Us</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" aria-cureent="page" href="/Minggu 3/Contact.php"> Contact Us </a>
+                     <a class="nav-link" aria-cureent="page" href="Contact.php"> Contact Us </a>
                   </li>
                </ul>
             </div>

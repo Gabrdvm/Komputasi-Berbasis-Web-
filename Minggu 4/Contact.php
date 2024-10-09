@@ -21,10 +21,10 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav d-flex gap-2 fs-6 h2">
                         <li class="nav-item">
-                            <a class="nav-link" href="/Minggu 3/Dashboard.html">Home</a>
+                            <a class="nav-link" href="Dashboard.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/Minggu 3/About.html"> About Us</a>
+                            <a class="nav-link" href="About.php"> About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-cureent="page" href=#> Contact Us </a>

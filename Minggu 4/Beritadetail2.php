@@ -10,78 +10,97 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg bg-dark-subtle border-bottom">
-
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Gabriel Davinche Manalu</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/Minggu 3/Dashboard_1.html ">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/Minggu 3/About_1.html"> Abou</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-cureent="page" href="#"> Contact </a>
-                    </li>
-                </ul>
+    <header class="bg-light position-sticky w-100 shadow py-2">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 px-4 h1">Gabriel Davinche Manalu</span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav d-flex gap-2 fs-6 h2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Dashboard.php">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.php"> About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-cureent="page" href="Contact.php"> Contact Us </a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+    </header>
+    
+    <section class="mt-5 d-flex justify-content-center">
+        <div class="container row d-flex justify-content-center">
+            <div class="col-md-8">
+                <img src="https://asset.kompas.com/crops/JRi-MbHe9EGvIhYqlvCC37vjVxM=/0x0:0x0/750x500/data/photo/2024/09/10/66dfebf42b014.jpg" alt="
+                    img " class=" img-fluid rounded">
             </div>
-    </nav> 
-
-
-    <section style="margin-top: 10px ;">
-        <div style="display: flex; justify-content: center;">
-            <img src="https://asset.kompas.com/crops/JRi-MbHe9EGvIhYqlvCC37vjVxM=/0x0:0x0/750x500/data/photo/2024/09/10/66dfebf42b014.jpg"
-                alt="Image" width="500px" height="auto">
-        </div>
-        <div style="margin-top: 25px ;">
-            <h1 style="display: flex; justify-content: center;">DPR dan Pemerintah Sepakat Pilkada Ulang 2025 jika Kotak
-                Kosong Menang</h1>
-            <div style="font-size: 18px;">
-                <p>JAKARTA, KOMPAS.com - Komisi II DPR RI, Komisi Pemilihan Umum (KPU), Kementerian Dalam Negeri
-                    (Kemendagri), Badan Pengawas Pemilu (Bawaslu) dan Dewan Kehormatan Penyelenggara Pemilu (DKPP)
-                    bersepakat untuk menggelar Pilkada kembali 2025, jika pilkada suatu daerah dimenangkan kotak kosong.
-                    Kesepakatan tersebut diambil dalam rapat dengar pendapat yang berlangsung pada Selasa (10/9/2024)
-                    malam dan menjadi kesimpulan sementara untuk dibahas lebih lanjut dalam rapat kerja berikutnya
-                    bersama KPU, Kemendagri, Bawaslu, dan DKPP. “Secara bersama menyetujui Pemilihan Gubernur dan Wakil
-                    Gubernur, Bupati dan Wakil Bupati serta Walikota dan Wakil Walikota diselenggarakan kembali pada
-                    tahun berikutnya yakni tahun 2025, sebagaimana diatur dalam Pasal 54D Undang-Undang Nomor 10 Tahun
-                    2016,” ujar Ketua Komisi II DPR RI Ahmad Doli Kurnia, Selasa (10/9/2024) malam. Menurut Doli, rapat
-                    Komisi II lanjutan bersama KPU, Kemendagri, Bawaslu, dan DKPP akan digelar pada 27 September 2024.
-                </p>
-                <p>“Komisi Il DPR RI akan membahasnya lebih lanjut bersama Kemendagri, KPU, Bawaslu dan DKPP pada Rapat
-                    Kerja dan Rapat Dengar Pendapat yang akan datang terkait PKPU yang mengatur tentang penyelenggaraan
-                    pilkada dengan 1 (satu) pasangan calon,” kata Doli. Diberitakan sebelumnya, Anggota KPU RI, Idham
-                    Holik mengatakan, ada dua alternatif yang bisa diambil jika kotak kosong menjadi pemenang dalam
-                    Pilkada 2024. Alternatif itu adalah memilih ulang pada tahun berikutnya, atau dipimpin oleh penjabat
-                    kepala daerah yang ditentukan oleh Pemerintah Pusat. Idham mengatakan, opsi pertama memberikan
-                    kesempatan daerah segera memiliki kepala daerah dan wakil kepala daerah terpilih, tanpa menunggu
-                    terlalu lama.</p>
+            <div class="col-md-8 mt-5">
+                <h1> Kata Jokowi dan Shin Tae-yong Usai Indonesia Tahan
+                    Imbang Australia</h1>
+            </div>
+            <div class="col-md-8 mt-3">
+                <p>KOMPAS.com - Tim Nasional (Timnas) Indonesia berhasil menahan imbang Australia dengan skor 0-0
+                    dalam
+                    lanjutan babak ketiga Kualifikasi Piala Dunia 2026 di Stadion Gelora Bung Karno (GBK), Jakarta
+                    pada
+                    Selasa (10/9/2024). Hasil imbang ini membuat Indonesia mengantongi dua poin dan berada di posisi
+                    ke-4 Grup C Kualifikasi Piala Dunia 2026 Zona Asia. Sementara, Australia harus puas berada di
+                    peringkat 5 dengan koleksi 1 poin. Lantas, bagaimana tanggapan Presiden Joko Widodo dan Shin
+                    Tae-yong usai pertandingan tersebut?</p>
                 <p>
-                    "Sebagaimana salah satu tujuan diadakannya pemilihan atau pilkada yaitu aktualisasi kedaulatan
-                    pemilih sebagai rakyat dalam memilih kepala daerah dan wakil kepala daerah secara langsung," ujarnya
-                    dalam pesan singkat, Senin (2/9/2024). Sedangkan opsi kedua, pemilihan dilaksanakan sesuai jadwal
-                    yang dimuat dalam peraturan perundang-undangan. Alternatif kedua ini, kata Idham, merujuk pada Pasal
-                    3 ayat (1) UU No. 8 Tahun 2015 yang menyebut Pilkada dilaksanakan setiap 5 tahun sekali secara
-                    serentak. “Alternatif kedua ini juga menegaskan pada mengedepankan desain keserentakan
-                    penyelenggaraan pemilihan/pilkada," ucap Idham.
-                </p>
+                <h1>Tanggapan Jokowi </h1>Presiden Joko Widodo (Jokowi) memberikan apresiasi kepada timnas Indonesia
+                setelah berhasil menahan imbang Australia. Jokowi optimis, Indonesia dapat tampil dengan baik
+                meskipun
+                harus berhadapan dengan tim lain yang lebih unggul. "Kita bisa melihat sendiri kan ini. Hati-hati,
+                lho,
+                Australia rangking 24 (FIFA), kita 131. Lihat di situ, dong, 131 lawan rangking 24 dan bisa menjaga
+                menahan imbang," ungkap Jokowi, dikutip dari Kompas.com, Selasa (10/9/2024). Dengan hasil imbang dan
+                tambahan satu poin, Jokowi berharap timnas Indonesia bisa meraih poin lebih banyak lagi. Ia juga
+                enggan
+                memberikan evaluasi mengenai permainan timnas Indonesia karena hal tersebut bukan ranahnya.</p>
+                <p>
+                <h1>Kata Shin Tae-yong</h1> Pelatih timnas Indonesia, Shin Tae-yong juga mengapresiasi timnas yang
+                berjuang menahan imbang Australia. Shin Tae-yong mengatakan, laga tersebut sangat sulit bagi timnas
+                Indonesia meskipun meraih hasil 0-0. Sebelumnya, ia sempat menyorot jarak yang jauh pada rangking
+                FIFA
+                antara Indonesia yang berada di posisi 133 dan Australia di peringkat 24.</p>
+                <p>"Seperti apa yang diperlihatkan, ini memang menjadi pertandingan yang sangat sulit bagi
+                    Indonesia,"
+                    ungkap Shin Tae-yong, dilansir dari Kompas.com, Selasa (10/9/2024). Dalam laga tersebut, timnya
+                    banyak mendapat serangan dari Australia dengan 19 tembakan. Angka tersebut berbanding jauh
+                    karena
+                    Indonesia hanya membuahkan lima tembakan selama 90 menit pertandingan. Meskipun demikian, ia
+                    mengapresiasi performa timnya yang sudah berusaha dengan maksimal. "Para pemain sudah bekerja
+                    keras.
+                    Sekarang kita hanya bisa menatap ke depan dan tim mau tidak mau harus berkembang terus."
+                    jelasnya.
+                    (Sumber: Kompas.com/Vitorio Mantalean, Sem Bagaskara | Editor: Bagus Santosa, Sem Bagaskara)</p>
             </div>
         </div>
         <br><br>
     </section>
 
-    <footer>
+
+    <footer class="bg-light text-center py-4 mt-5  border">
         <h2> Web Rekomendasi</h2>
-        <ul style="font-size: 18px;">
-            <li><a href="https://www.google.com" target=_blank> Google</a></li>
-            <li><a href="https://www.microsoft.com/id-id" target=_blank>Microsoft</a></li>
+        <ul class="d-flex justify-content-center gap-5 px-5">
+            <a class="navbar-brand" href="https:www.google.com" target=_blank>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSTLNyHEp8ERADDJDy5wXQLoV_Lj0YTmv6eA&s"
+                    alt="Logo" width="30" height="24" class="d-inline-block align-text-top ">
+                Google
+            </a>
+
+            <a class="navbar-brand" href="https://www.microsoft.com/id-id" target=_blank>
+                <img src="https://awsimages.detik.net.id/customthumb/2012/08/24/398/microsoftbaru.jpg?w=600&q=90"
+                    alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Microsoft
+            </a>
         </ul>
     </footer>
 

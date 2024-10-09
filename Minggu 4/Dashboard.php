@@ -26,10 +26,10 @@
                             <a class="nav-link active" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/Minggu 3/About.html"> About Us</a>
+                            <a class="nav-link" href="About.php"> About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-cureent="page" href="/Minggu 3/Contact.html"> Contact Us </a>
+                            <a class="nav-link" aria-cureent="page" href="Contact.php"> Contact Us </a>
                         </li>
                     </ul>
                 </div>
