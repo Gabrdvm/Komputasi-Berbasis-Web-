@@ -21,20 +21,20 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                <ul class="navbar-nav d-flex gap-2 fs-6 h2">
                   <li class="nav-item">
-                     <a class="nav-link" href="Dashboard.html">Home</a>
+                     <a class="nav-link" href="/Minggu 3/Dashboard.php">Home</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link active" href="#"> About Us</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" aria-cureent="page" href="Contact.html"> Contact Us </a>
+                     <a class="nav-link" aria-cureent="page" href="/Minggu 3/Contact.php"> Contact Us </a>
                   </li>
                </ul>
             </div>
       </nav>
    </header>
 
-   <section class="mt-5 d-flex justify-content-center">
+   <section class="mt-5  d-flex justify-content-center">
       <div class="container row d-flex justify-content-center ">
          <div class="col-xl-8">
             <img src="https://akcdn.detik.net.id/visual/2020/12/04/ilustrasi-teman-kantor_169.jpeg?w=650" alt="img"
@@ -70,13 +70,12 @@
                curabitur eget eleifend sociosqu odio. Odio ipsum quam facilisi interdum hac sed.
             </p>
          </div>
-      </div>
    </section>
 
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-      </script>
-
+   </script>
+   
    <footer class="bg-light text-center py-4 mt-5  border">
       <h2> Web Rekomendasi</h2>
       <ul class="d-flex justify-content-center gap-5 px-5">
