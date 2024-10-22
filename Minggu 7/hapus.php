@@ -12,36 +12,86 @@
 <?php include_once "menu.php"; ?>
 
 <div class="container">
-  <form action="" method="post">
-    <h2>Hapus Biodata Mahasiswa</h2>
-    <div class="row mb-2">
-        <div class="col-sm-12">    
-            <span class="m-1">
-            <button type="submit" class="btn btn-danger">
-                Simpan
-            </button>
-            </span>
-        </div> 
-    </div>          
+  <h2> Konfirmasi Penghapusan Biodata Mahasiswa</h2>
+  <div class="row mb-2">
+    <div class="col-sm-12">    
+        <span class="m-1">
+          <a href="viewall.php" class="btn btn-info" role="button">Kembali</a>
+        </span>
+    </div> 
+  </div>          
+  <?php
+   include "koneksi.php";
+   include "fungsi.php";
+   if($_SERVER["REQUEST_METHOD"] == "POST"){
+      $id = bersihkan_input($_POST['id']);
+      $strSQL = "DELETE FROM mahasiswa WHERE id='$id'";
+      $execStrSQL = mysqli_query($conn, $strSQL);
+      if ($execStrSQL){
+  ?>
+  
+         <div class="alert alert-sucess alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert">&times;</button> 
+          <b>Data Berhasil</b> dihapus dari Database
+         </div>
+  <?php
+      }
+      else{
+      
+  ?>
+          <div class="alert alert-warning alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert">&times;</button> 
+          <b>Data Tidak Berhasil</b> dihapus dari Database
+         </div>
+  <?php
+  }
+
+   }
+   elseif (isset($_GET['id'])){
+    $id = bersihkan_input($_GET['id']);
+    }
+   $strSQL = "SELECT * FROM mahasiswa WHERE id='$id'";
+   $execStrSQL = mysqli_query($conn, $strSQL);
+   if (mysqli_num_rows($execStrSQL)) {
+      while ($row = mysqli_fetch_assoc($execStrSQL)) {
+  ?>
     <table class="table table-striped">
-        <thead>
-        <tr>
-            <th>Nama</th>
-            <th><input type="hidden" name="nama"></th>       
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Email</td>        
-            <td><input type="hidden" name="email"></td>       
-        </tr>
-        </tbody>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th><?= $row["id"]?></th>       
+      </tr>
+    </thead>
+    <tbody>
+
+    <tr>
+        <td>Nama Lengkap</td>        
+        <td><?php echo $row["nama_depan"]." ".$row["nama_belakang"] ?></td>       
+      </tr>
+      <tr>
+        <td>Email</td>        
+        <td><?= $row["email"]?></td>       
+      </tr>
+    </tbody>
     </table>
-  </form>
+    <div class="row mb-2">
+      <div class="col-sm-12">    
+        <span class="m-1">
+          <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'])?>" method="post">
+            <input type="hidden" name="id" value="<?= $id ?>">
+            <button type="submit" class="btn btn-danger">Hapus</button> 
+          </form>
+        </span>
+      </div> 
+    </div> 
+    <?php
+      }
+    }
+  ?>         
 </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
 </body>
 </html>

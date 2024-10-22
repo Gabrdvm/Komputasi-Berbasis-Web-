@@ -47,7 +47,7 @@ if (mysqli_num_rows($execStrSQL) >0 ){
         <td><?= $row["email"]?></td>
         <td>
         <a href="edit.php?id=<?= $row['id'] ?>"class= "btn btn-primary" > Edit</a> 
-        <button type="button" class="btn btn-danger">Hapus</button>
+        <a href="hapus.php?id=<?= $row['id'] ?>"class= "btn btn-danger" > Hapus</a> 
         </td>
       </tr>
 <?php
